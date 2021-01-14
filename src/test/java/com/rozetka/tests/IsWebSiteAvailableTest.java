@@ -14,9 +14,9 @@ public class IsWebSiteAvailableTest extends BaseTest{
         HomePage homePage=new HomePage();
         homePage.openHomePage()
                 .isLogoDisplays();
-
-
-
+        homePage.checkPageTitle();
     }
+
+
 
 }
